@@ -13,6 +13,9 @@ The variance of suspension coils for the entire MechaCar manufacturing plant is 
 Using the one-sided t-test to compare all the manufacturing lots to the population mu (mean) of 1500 PSI/in.^2 the is a p-value of 0.06 which is above the significance level of 0.05. Therefore there is not enough evidence to reject the null hypothesis that the two means are statistically different. 
 ### ![](Images/t-test(all).PNG)
 When comparing the sample population to the subset of manufacturing lot 1 using a t-test, a p-value of 1 is returned meaning the two populations means are the exact same. When comparing to lot2 a p-value of 0.61 is returned verifying again that the two means are are statistically the same. lastly, when comapring the population to the subset of lot 3 the p-value is 0.04 which is below the 0.05 significance level which states that there is a statistical difference between the distribution means of the two samples. This confirms the analysis performed in part 2 where lot 3 had a significantly higher variance in PSI for the suspension coils. 
+### ![](Images/t-test(lot1).PNG)
+### ![](Images/t-test(lot2).PNG)
+### ![](Images/t-test(lot3).PNG)
 ## Study Design: MechaCar vs Competition
 ### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 What metric or metrics are you going to test?
