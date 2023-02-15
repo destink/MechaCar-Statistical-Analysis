@@ -2,7 +2,7 @@
 ## Linear Regression to Predict MPG
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The coefficients with extremely low p-values and have a statistically significant relationship with the response variable in this model are ground clearance and vehicle length which intuitively makes sense as these two variables contribute the most to the aerodynamics of the vehicle. Vehicle weight has a p-value of 0.0776 which is slightly over the 0.05 significance threshold which doesn't necessarily rule out any correlation to mpg but is clearly not a major factor within this data set. Then there is AWD and spoiler angle which have almost no effect on mpg. 
-### ![](Images/RPlot.png)
+### ![](Images/Rplot.png)
 ### Is the slope of the linear model considered to be zero? Why or why not?
 The slope of this model is not considered to be zero due to the positive correlation between mpg and the contributing variables.
 ### ![](Images/Normal%20Q-Q%20Plot.png)
