@@ -2,10 +2,13 @@
 ## Linear Regression to Predict MPG
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The coefficients with extremely low p-values and have a statistically significant relationship with the response variable in this model are ground clearance and vehicle length which intuitively makes sense as these two variables contribute the most to the aerodynamics of the vehicle. Vehicle weight has a p-value of 0.0776 which is slightly over the 0.05 significance threshold which doesn't necessarily rule out any correlation to mpg but is clearly not a major factor within this data set. Then there is AWD and spoiler angle which have almost no effect on mpg. 
+### ![](Images/RPlot.PNG)
 ### Is the slope of the linear model considered to be zero? Why or why not?
 The slope of this model is not considered to be zero due to the positive correlation between mpg and the contributing variables.
+### ![](Images/Normal%20Q-Q%20Plot.PNG)
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-With a r sqared value of 0.715 it can be concluded that the predictor variables for mpg can be used to find out the repose variable. However, finding a benchmark within the automotive industry to predict mpg to compare to would allow for further confirmation that the model works. 
+With a r sqared value of 0.715 it can be concluded that the predictor variables for mpg can be used to find out the repose variable. However, finding a benchmark within the automotive industry to predict mpg to compare to would allow for further confirmation that the model works.
+### ![](Images/Linear%20Regression%20to%20Predict%20MPG.PNG)
 ## Summary Statistics on Suspension Coils
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The variance of suspension coils for the entire MechaCar manufacturing plant is 62.3 which is under the 100 lbs./in.^2 threshold but is still a significant variance in my mind. Once again, it would be good to compare this variance to industry standard to have a real idea of if this acceptable. 
